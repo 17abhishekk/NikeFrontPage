@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+  font-family: "Poppins" , sans-serif;
+}
+.container{
+  margin: 0 auto;
+  max-width: 1280px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  height: 72px;
+  align-items: center;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+button{
+  all: unset;
+  padding: 6px 16px;
+  background-color: red;
+  height: 32px;
+  color: white;
+  font-weight: 500;
+}
+*{
+  margin: 0;
+}
+#nike{
+  width: 100px;
+  height: 50px;
+}
+#bi{
+  width:30px;
+  height: 30px;
+}
+.hero{
+  display: flex;
+  align-items: center;
+  height: calc(100vh-72px);
+}
+.hero h1{
+  font-weight: 800;
+  font-size: 108px;
+  line-height: 102px;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+.hero p{
+  font-weight: 600;
+  color: grey;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+.hero-btn{
+  display: flex;
+  gap: 40px;
+}
+#joota{
+  height: 530px;
+  width: 600px;
+}
+.change{
+  background: transparent;
+  color: grey;
+  border: 1px solid gray;
+}
+.Shopping{
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.brandIcons{
+  display: flex;
+  gap: 20px;
+}
+.content{
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
